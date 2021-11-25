@@ -130,6 +130,8 @@ nav > .logo {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--secondary-title-color);
 }
 
@@ -139,11 +141,6 @@ nav > .logo {
 
 .header-item:last-child {
   margin-right: 0px;
-}
-
-.header-item > a {
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .contacts-list {
@@ -159,15 +156,11 @@ nav > .logo {
   margin-right: 0px;
 }
 
-.contacts-item > a {
+.header-contacts {
   display: flex;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-}
-
-.header-contacts {
-  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -266,6 +259,8 @@ nav > .logo {
 
 .thumb {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
   width: 100%;
   min-height: 120px;
@@ -278,8 +273,6 @@ nav > .logo {
 .specifications-icon {
   width: 70px;
   height: 70px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .specifications-list {
@@ -357,7 +350,7 @@ nav > .logo {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
   border-radius: 0px 0px 4px 4px;
-  background: #ffffff;
+  background: var(--primary-white-color);
 }
 
 .team-title {
@@ -419,7 +412,7 @@ nav > .logo {
   fill: currentColor;
 }
 
-.social-list > li:not(:last-child) {
+.social-list-item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -464,7 +457,7 @@ nav > .logo {
   fill: currentColor;
 }
 
-.clients-list > li:not(:last-child) {
+.clients-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
